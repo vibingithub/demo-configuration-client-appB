@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: configClientB
+  config:
+    import: configserver:http://localhost:8888
